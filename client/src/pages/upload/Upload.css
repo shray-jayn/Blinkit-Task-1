@@ -1,0 +1,12 @@
+.upload-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+}
+
+.upload-form input,
+.upload-form button {
+  margin: 10px 0;
+}
