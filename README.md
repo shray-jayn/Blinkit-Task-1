@@ -34,42 +34,6 @@ The application prioritizes security with the following measures:
 
 ## Getting Started
 
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/image-upload-web-app.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd image-upload-web-app
-   ```
-
-3. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-### Running the Application
-
-1. Start the backend server:
-
-   ```bash
-   npm run server
-   ```
-
-2. Start the frontend application:
-
-   ```bash
-   npm start
-   ```
-
-Visit `http://localhost:3000` in your browser to access the application.
-
 ## Usage
 
 1. **Sign Up / Log In**: Create a new account or log in with existing credentials.
