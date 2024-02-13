@@ -1,0 +1,49 @@
+@import 'normalize.css'; // Import normalize.css for consistent styling across browsers
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2; /* Light background for legibility */
+}
+
+.signup-form {
+  width: 320px; /* Adjust for responsiveness */
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  font-family: Arial, sans-serif; /* Accessible fallback font */
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #333; /* Contrasting color for readability */
+}
+
+input {
+  width: 100%;
+  padding: 12px; /* More comfortable padding */
+  margin-bottom: 16px;
+  border: 1px solid #ccc; /* Subtle border */
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 12px; /* Match input field padding */
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #2980b9;
+}

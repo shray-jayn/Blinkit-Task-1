@@ -1,0 +1,47 @@
+/* UploadImage.css */
+
+.upload-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5; /* Light background */
+  font-family: Arial, sans-serif; /* Accessible fallback font */
+}
+
+.upload-form {
+  width: 320px; /* Adjustable for responsiveness */
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc; /* Subtle border */
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 12px 20px; /* Adjust padding for text length */
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px; /* Refined border-radius */
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #2980b9; /* Hover effect */
+}
+
+/* Optional: Accessibility improvements */
+input:focus {
+  outline: 2px solid #3498db; /* Visible focus indicator */
+}
